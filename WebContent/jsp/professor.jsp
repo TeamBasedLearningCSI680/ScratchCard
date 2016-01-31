@@ -34,7 +34,7 @@
 	<h4>Course ID: CSI 105</h4>
 	<div id="tabs">
 		<ul>
-			<%  int count = (int) session.getAttribute("Count");
+			<%  int count = (Integer) session.getAttribute("Count");
 				for (int i = 1; i <= count; i++) {%>
 			<li><a href="#tabs-<%=i%>">Team <%=i%></a></li>
 			<%}%>
